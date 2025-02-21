@@ -1,15 +1,12 @@
 # giorgio-minecraft-discordbot
 
-To install dependencies:
+Some strange experiment with discord and minecraft...
 
-```bash
-bun install
-```
 
-To run:
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Dev
+To start the bot you need to create the discord application, set the **Privileged Gateway Intents** and take the **Token**  under **bot settings**.
+After that do the following:
+1. `bun install`
+2. `bunx prisma migrate dev`
+3. `bun run dev`
