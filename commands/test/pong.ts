@@ -1,5 +1,5 @@
 import { ApplicationCommandType, Client, CommandInteraction, SlashCommandBuilder } from "discord.js"
-import { Command } from "../../types"
+import type { Command } from "../../types"
 
 export const Pong: Command = {
     name: "pong",

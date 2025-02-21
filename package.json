@@ -1,7 +1,7 @@
 {
   "name": "giorgio-minecraft-discordbot",
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run --watch index.ts"
   },
   "module": "index.ts",
   "type": "module",
@@ -12,6 +12,11 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "discord.js": "^14.18.0"
+    "@ai-sdk/google": "^1.1.16",
+    "@minecraft-js/rcon": "^1.1.0",
+    "@prisma/client": "^6.3.1",
+    "ai": "^4.1.45",
+    "discord.js": "^14.18.0",
+    "prisma": "^6.3.1"
   }
 }

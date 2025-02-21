@@ -1,0 +1,10 @@
+[
+    {
+        "command": "tp",
+        "description": "Teleport x to y",
+        "args": [
+            "minecraft username of the target"
+        ],
+        "blacklist": []
+    }
+]
